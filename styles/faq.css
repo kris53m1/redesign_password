@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+main {
+    margin: 0%;
+    width: 100vw;
+    /*    height: 100vh;*/
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#service_and_about {
+    background: #d9d9d9;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.h2_microblading h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h2_touch_up h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h3 {
+    margin-bottom: 0;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+}
+
+.faq_section {
+    background: rgba(115, 66, 58, 0.5);
+
+}
+
+
+
+@media only screen and (min-width: 900px) {
+
+    h2 {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .h2_microblading h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .h2_touch_up h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    h3 {
+        margin-bottom: 0;
+        color: white;
+        text-shadow: 4px 4px 8px #000000;
+    }
+
+    p {
+        margin-top: 10px;
+        color: whitesmoke;
+    }
+
+    .faq_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+
+    }
+
+    .narrow_one_p p {
+        margin: 2rem 0 0 0;
+    }
+
+    .faq_section {
+        background: rgba(115, 66, 58, 0.5);
+
+    }
+
+    .faq_section {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    /*
+    .faq_narrow_two {
+        padding-left: 1rem;
+    }
+*/
+
+    #splashVideo {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
