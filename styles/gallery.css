@@ -1,0 +1,70 @@
+body {
+
+    margin: 0;
+    background-image: url(billeder/Luz_Background.jpg);
+
+}
+
+
+.logo {
+
+    width: 200px;
+
+}
+
+
+
+main {
+    margin: 0%;
+    width: 100vw;
+    /*    height: 100vh;*/
+
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+
+    text-align: center;
+    /*    background: rgba(115, 66, 58, 0.5);*/
+    font-size: 3rem;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+.col_gallery {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.col_gallery img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .col_gallery {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .col_gallery {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
