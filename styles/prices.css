@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    margin: 0%;
+    width: 100vw;
+
+
+}
+
+
+
+h2 {
+
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+
+    text-shadow: 4px 4px 8px #000000;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#prices {
+
+    margin-left: 40px;
+}
+
+#service_and_about {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.knap {
+
+    width: 20px;
+}
+
+button {
+
+    width: 60px;
+    height: 30px;
+    position: relative;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #splash_video {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #splash_video {
+        width: auto;
+        height: 100%;
+    }
+
+
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+#menuknap {
+    display: inline-block;
+
+
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #splash_video {
+        position: relative;
+        z-index: -1;
+        /*not work if the screen ratio is below 16/9*/
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+
+
+    }
+
+    .section_wrapper2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+
+
+    }
+
+    #service_and_about {
+        padding-left: 0;
+        padding-right: 0;
+        background: rgba(115, 66, 58, 0.5);
+    }
+
+    .service_paragraph {
+        padding-left: 1rem;
+        padding-right: 2rem;
+        color: white;
+    }
+
+    .about_paragraph {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        color: white;
+    }
+
+    .service_paragraph h3 {}
+
+    .img_wrapper {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .img_wrapper2 {
+        padding-right: 20px;
+    }
+
+
+}
